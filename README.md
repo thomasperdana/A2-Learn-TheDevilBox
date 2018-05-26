@@ -5,13 +5,18 @@
 1.  https://deliciousbrains.com/devilbox-local-wordpress-development-docker/
 
     a.  $ git clone https://github.com/cytopia/devilbox
-        $ cd devilbox/
-        $ cp env-example .env
-        $ ./update-docker.sh
-        $ docker-compose up -d
-        $ docker-compose ps
+        
+    b.  $ cd devilbox/
+        
+    c.  $ cp env-example .env
+        
+    d.  $ ./update-docker.sh
+        
+    e.  $ docker-compose up -d
+        
+    f.  $ docker-compose ps
 
-    b.  http://localhost # The Dashboard of The Devil Box
+    g.  http://localhost # The Dashboard of The Devil Box
 
 2.  https://devilbox.readthedocs.io/en/latest/examples/setup-wordpress.html
 
